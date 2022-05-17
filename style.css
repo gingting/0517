@@ -1,0 +1,125 @@
+nav {
+    width: 100%;
+    height: 75px;
+    background-color: #1A1B1B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    text-decoration: none;
+}
+body nav h1 {
+    color: #F6020F;
+    font-size: 50px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+header nav h1 {
+    font-size: 50px;
+    color: #FD0000;
+}
+ul li a:link  {
+    text-decoration: none;
+    color: #04A6D7;
+    font-size: 19px;
+}
+ul li a:hover {
+    color: #31EDCE;
+    font-size: 22px;
+}
+
+body header {
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    background-image: url(TEDx_logo_k_RGB__290.jpg);
+    background-position: right center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FB0509;
+    font-size: 88px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+article {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.place {
+    background-color: #E5E5E5;
+}
+.work {
+    background-color: #E5E5E5;
+}
+article h3 {
+    color: #104C89;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 11px;
+}
+.contain1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.contain1 .left {
+    flex: 1;
+}
+.contain1 .right {
+    flex: 1;
+    background-image: url(TEDx_logo_k_RGB__290.jpg);
+    background-position: center center;
+    background-size: contain;
+    border-radius: 28px;
+    margin-left: 10px;
+}
+
+
+.contain3  {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.work .contain3 img {
+    border-radius: 20px;
+    padding-left: 0px;
+    margin-left: 11px;
+    margin-top: 11px;
+    margin-right: 11px;
+    margin-bottom: 11px;
+}
+
+.contain2 {
+    width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+	display: flex;
+}
+.contain2 .left {
+    flex: 1;
+}
+.contain2 .right{
+    flex: 1;
+    background-image: url(Attachment-1.jpeg);
+    border-radius: 16px;
+    background-size: cover;
+    background-position: 0% center;
+}
+.contain4 {
+    width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+}
